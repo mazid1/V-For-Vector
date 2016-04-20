@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fokk.vforvector" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdditionActivity"
+            android:label="@string/title_activity_addition"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SubtractionActivity"
+            android:label="@string/title_activity_subtraction"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CrossProductActivity"
+            android:label="@string/title_activity_cross_product"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CreditsActivity"
+            android:label="@string/title_activity_credits"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TriviaActivity"
+            android:label="@string/title_activity_trivia"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdditionTheoryActivity"
+            android:label="@string/title_activity_addition_theory"
+            android:parentActivityName=".TriviaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.TriviaActivity" />
+        </activity>
+        <activity
+            android:name=".SubtractionTheoryActivity"
+            android:label="@string/title_activity_subtraction_theory"
+            android:parentActivityName=".TriviaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.TriviaActivity" />
+        </activity>
+        <activity
+            android:name=".CrossProductTheoryActivity"
+            android:label="@string/title_activity_cross_product_theory"
+            android:parentActivityName=".TriviaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fokk.vforvector.TriviaActivity" />
+        </activity>
+    </application>
+
+</manifest>

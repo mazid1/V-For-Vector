@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">V For Vector</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_addition">Addition</string>
+    <string name="button_subtraction">Subtraction</string>
+    <string name="button_cross_product">Cross Product</string>
+    <string name="button_trivia">Trivia</string>
+    <string name="button_help">Help</string>
+    <string name="button_credits">Credits</string>
+
+    <string name="title_activity_addtion">Addtion</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="title_activity_subtraction">Subtraction</string>
+    <string name="title_activity_cross_product">Cross Product</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_trivia">Trivia</string>
+    <string name="title_activity_addition_theory">Vector Addition Theory</string>
+    <string name="title_activity_subtraction_theory">Vector Subtraction Theory</string>
+    <string name="title_activity_cross_product_theory">Cross Product Theory</string>
+
+    <string name="credits_products">FoKK products</string>
+    <string name="credits_main_developer">Main developer:</string>
+    <string name="credits_main">Mohammad Mazedul Islam</string>
+    <string name="credits_assist_developer">Assistant developers:</string>
+    <string name="credits_assist">Shadman Rafid\nMuhammad Jawad Iqbal\nSourav Sen Tonmoy</string>
+    <string name="credits_contact">Contact us: mazidmailbox@gmail.com</string>
+
+    <string name="addition_vectorA">Enter components of vector A</string>
+    <string name="addition_hint">Example: 1 2 3</string>
+    <string name="addition_vectorB">Enter components of vector B</string>
+    <string name="addition_add_button">Add</string>
+    <string name="addition_result">result</string>
+
+    <string name="subtraction_vectorA">Enter components of vector A</string>
+    <string name="subtraction_hint">Example: 1 2 3</string>
+    <string name="subtraction_vectorB">Enter components of vector B</string>
+    <string name="subtraction_subtract_button">Subtract</string>
+    <string name="subtraction_result">result</string>
+
+    <string name="cross_vectorA">Enter components of vector A</string>
+    <string name="cross_hint">Example: 1 2 3</string>
+    <string name="cross_vectorB">Enter components of vector B</string>
+    <string name="cross_product_button">Cross Product</string>
+    <string name="cross_result">result</string>
+
+    <string name="help_text1">Do not insert any invalid input please.
+        In the case of addition, subtraction or cross product insert the component (i, j, k)
+        values in integer with single blank space in between them.</string>
+    <string name="help_text2">For further help please contact us at mazidmailbox@gmail.com</string>
+
+
+    <string name="trivia_text">Select a button to learn about that topic</string>
+    <string name="trivia_addition_button">Vector Addition Theory</string>
+    <string name="trivia_subtraction_button">Vector Subtraction Theory</string>
+    <string name="trivia_cross_product_button">Vector Cross Product Theory</string>
+
+    <string name="addition_theory_text1">In the below left diagram, we see 3 vectors with their
+        associated magnitudes and angles. In order to add these, we always must connect vectors
+        \'head to tail\' and the resultant vector (which represents the vector sum) is drawn from
+        the tail of the first vector to the head of the last vector (see right side of the diagram
+        below). In this example, using a ruler and protractor, we are able to get a resultant
+        vector of about magnitude 11 and an angle of 102°.</string>
+    <string name="addition_theory_text2">In the above example, we demonstrated adding vectors
+        physically by drawing and measuring them. In the real world, we need much greater accuracy.
+        (However, you learned the important concept of visualizing vector addition).</string>
+
+    <string name="subtraction_theory_text1">Vector subtraction is the process of taking a vector
+        difference, and is the inverse operation to vector addition. Following two figures
+        illustrate the difference between vector addition and subtraction.</string>
+    <string name="subtraction_theory_text2">Vector Addition:</string>
+    <string name="subtraction_theory_text3">Vector Subtraction:</string>
+
+    <string name="cross_product_theory_text1">In mathematics and vector calculus, the cross product
+        or vector product (occasionally directed area product to emphasize the geometric
+        significance) is a binary operation on two vectors in three-dimensional space and is
+        denoted by the symbol ×. Given two linearly independent vectors a and b, the cross product,
+        a × b, is a vector that is perpendicular to both and therefore normal to the plane
+        containing them.</string>
+    <string name="cross_product_theory_text2">Figure1: The cross-product in respect to a right-handed
+        coordinate system</string>
+    <string name="cross_product_theory_text3">Figure2: The area of a parallelogram as the magnitude of a cross product</string>
+
+</resources>
